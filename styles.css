@@ -1,8 +1,83 @@
-
-.section{
-    min-height:90px;
-    border:1px solid red;
+html{
+    box-sizing:border-box
 }
+
+*,::after,::before{
+    box-sizing: inherit;
+}
+
+.navbar-brand{
+    font-size:32px;
+}
+
 li{
     list-style:none;
+}
+
+
+.section-services{
+    border-radius:30px;
+}
+
+.btn{
+    border-radius: 50px;
+    font-size:16px;
+}
+
+.pictures{
+    border-radius:20px;
+}
+.clients-card-body{
+    
+    background-color:white;
+    width:350px;
+    height:250px;
+    box-shadow:0px px;
+    
+}
+
+.section-experience{
+    background-color: white;
+   
+}
+
+.number{
+    position: absolute;
+    font-size: 60px;
+    line-height: 60px;
+    right: 70px;
+    top: 30px;
+    opacity: .07;
+    transition: 0.3s ease-in-out
+}
+
+.clients-text{
+    padding-top: 60px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section.design{
+    background-image: url(bg1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section.footer{
+    position:relative;
+    background-image:url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    background-color: black;
+}
+.fa-solid.fa-ghost{
+    color:red;
+    font-size: 50px;
 }

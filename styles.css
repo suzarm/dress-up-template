@@ -1,6 +1,9 @@
 html{
     box-sizing:border-box
 }
+body{
+    font-size:16px;
+}
 
 *,::after,::before{
     box-sizing: inherit;
@@ -8,6 +11,10 @@ html{
 
 .navbar-brand{
     font-size:32px;
+}
+
+.navbar-nav{
+    padding-left:70px;
 }
 
 li{
@@ -27,18 +34,17 @@ li{
 .pictures{
     border-radius:20px;
 }
+
 .clients-card-body{
-    
     background-color:white;
     width:350px;
-    height:250px;
+    height:300px;
     box-shadow:0px px;
     
 }
 
 .section-experience{
     background-color: white;
-   
 }
 
 .number{
@@ -63,11 +69,21 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .section.footer{
     position:relative;
-    background-image:url(bg2.jpg);
+    background-image:url(footer.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    height:500px;
+}
+
+.overlay-design{
+    position:absolute;
+    width:100%;
+    height:400px;
+    opacity:0.5;
+    background-color: black;
 }
 
 .overlay{
@@ -77,7 +93,56 @@ li{
     opacity:0.5;
     background-color: black;
 }
-.fa-solid.fa-ghost{
+
+a, a:hover, button, button:hover {
+    text-decoration: none;
+    transition: .5s all;
     color:red;
-    font-size: 50px;
+}
+
+.section.clients i{
+   color:red;
+   font-size:30px;
+   margin-bottom:200px;
+}
+
+.section.blog i{
+   color:red;
+}
+
+.form-control{
+    border-radius:30px;
+    font-size:16px;
+    margin-left:150px;
+}
+
+.bi.bi-moon{
+    margin-left:10px;
+    font-size:20px;
+}
+
+.btn.btn-danger.input{
+    width:50px;
+    border-radius:0px 30px 30px 0px;
+}
+
+.bi.bi-hand-thumbs-up,.bi.bi-person-arms-up{
+    color:red;
+    font-size:30px;
+}
+
+.section.new.styles {
+    text-align:center;
+}
+.section.new.styles .col-3{
+    margin:0;
+    padding:0;
+}
+
+.container-fluid.services .col-md-3.col-sm-6{
+    width:100%;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }

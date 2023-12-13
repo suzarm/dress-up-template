@@ -142,13 +142,13 @@ a, a:hover, button, button:hover {
     padding:0;
 }
 
-.container-fluid.services .col-md-3.col-sm-6{
+.container-fluid.services .pictures{
     width:100%;
     height:350px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:10px;
     border-radius:10px;
-   border:1px solid red;
-
 }
+
+   
+   

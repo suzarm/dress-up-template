@@ -22,16 +22,16 @@
                         <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" aria-current="page" href="services.html">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link"  href="#">BLOG</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PAGES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" aria-current="page" href="#">CONTACT</a>
                     </li>
                 </ul>
                 <div class="input-group">
@@ -43,10 +43,11 @@
                   </div>
             </nav>
             <div class="section main">
+                <div class="main-overlay"></div>
               <div class="container-fluid">
                 <div class="main-text">
-                    <h4>About Us</h4>
-                    <p>Home > About</p>
+                    <h4 class="text-white"><b>About Us</b></h4>
+                    <p class="text-white"><b>Home > About</b></p>
                 </div>
               </div>
             </div>
@@ -73,19 +74,218 @@
             </div>
             <div class="section-services">
                 <div class="section-services-title text-center  mt-5">
-                      <h1>Our <span>Tailors</span></h1>
+                      <h1 class="pt-5">Our <span>Tailors</span></h1>
                 </div>
-                <div class="container-fluid services mt-5" >
-                    <div class="row mx-auto" style="max-width:1240px;">
-                        <div class="col-lg-3 col-sm-6 " style="background-image: url(team1.jpg);">
-                            <h4>Martin Ker</h4>
+                <div class="container-fluid services mt-5 mx-auto" >
+                    <div class="row mx-auto" style="max-width:1200px;">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card" style="width: 18rem;">
+                                <img src="team1.jpg" class="card-img-top" >
+                                <div class="card-body text-center">
+                                  <h5 class="card-title"><b>Martin Ker</b></h5>
+                                  <p class="card-text">TAILOR</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-3 col-sm-6 " style="background-image: url(team2.jpg);"></div>
-                        <div class="col-lg-3 col-sm-6 col-md-6 " style="background-image: url(team3.jpg);"></div>
-                        <div class="col-lg-3 col-sm-6 " style="background-image: url(team4.jpg);"></div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card" style="width: 18rem;">
+                                <img src="team2.jpg" class="card-img-top" >
+                                <div class="card-body text-center">
+                                  <h5 class="card-title"><b>Shona Leer</b></h5>
+                                  <p class="card-text"> MASTER TAILOR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card" style="width: 18rem;">
+                                <img src="team3.jpg" class="card-img-top" >
+                                <div class="card-body text-center">
+                                  <h5 class="card-title"><b>Brock Lee</b></h5>
+                                  <p class="card-text">TAILOR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card" style="width: 18rem;">
+                                <img src="team4.jpg" class="card-img-top" >
+                                <div class="card-body text-center">
+                                  <h5 class="card-title"><b>Maya Didas</b></h5>
+                                  <p class="card-text"> MASTER TAILOR</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="section clients bg-light mt-5" style="height:590px;" >
+                    <div class="section-clients-title text-center mt-5">
+                        <h1 class="text pt-5"><b>What</b> we do <b>for our </b>Clients?</h1>
+                    </div>
+                    <div class="container-fluid services mt-5" >
+                        <div class="row mx-auto" style="max-width:1250px;">
+                            <div class="col-lg-4 col-sm-4">
+                                <div class="card-group">
+                                    <div class="flex-row">
+                                        <div class="clients-card-body px-4 mt-4">
+                                            <i class="bi bi-person-fill"></i>
+                                            <h1 class="number">01</h1>
+                                            <h4 class="clients-text"><a href="#" class="text-dark">Unique Design</a></h4>
+                                            <p class="pt-4">Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.</p>
+                                            <a href="#" class="text-dark border-bottom">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="flex-row">
+                                    <div class="clients-card-body px-4 mt-4">
+                                        <i class="bi bi-scissors"></i>
+                                        <h1 class="number">02</h1>
+                                        <h4 class="clients-text"><a href="#" class="text-dark">Custom Tailoring</a></h4>
+                                        <p class="pt-4">Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.</p>
+                                        <a href="#" class="text-dark border-bottom">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="flex-row">
+                                        <div class="clients-card-body px-4 mt-4 ">
+                                            <i class="bi bi-person-walking"></i>
+                                            <h1 class="number">03</h1>
+                                            <h4 class="clients-text"><a href="#" class="text-dark">Wedding Services</a></h4>
+                                            <p class="pt-4">Lorem ipsum dolor sit amet sed consectetur adipisicing elit. doloret quas saepe autem, dolor set.</p>
+                                            <a href="#" class="text-dark border-bottom">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                <div class="section design mt-5" style="max-width:2050px;">
+                    <div class="overlay-design"></div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6  offset-3 mx-5 mt-5 py-5 text-white mx-auto">
+                                    <h1 class="pt-5">Your Design, We deliver</h1>
+                                    <p style="width:570px;">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi. Integer sit amet. Lorem ipsum dolor sit amet elit.</p>
+                                    <a class="btn btn-danger mt-4  d-inline-flex justify-content-end" href="#" role="button">Book your appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="testimonials mt-5">
+                    <div class="container-fluid">
+                        <div class="testimonials-title text-center mt-5">
+                            <h1>Our <b>Testimonials</b></h1>
+                        </div>
+                        <div class="row mt-5 mx-auto" style="max-width:1200px;">
+                            <div class="col-4">
+                                <div class="testimonials-body" style=width:20rem;>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit sed. orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque euismod massa a quam viverra et.</p>
+                                    <div class="info d-flex align-items-center mt-4">
+                                        <div class="flex-shrink-0">
+                                            <img src="testi1.jpg" class="rounded-circle" style="width:50px;">
+                                        </div>
+                                        <div class="flex-grow-1 px-3">
+                                            <h6 class="mt-4">Theo Hall</h6>
+                                            <p>Subtitle goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="testimonials-body" style=width:20rem;>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit sed. orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque euismod massa a quam viverra et.</p>
+                                    <div class="info d-flex align-items-center mt-4">
+                                        <div class="flex-shrink-0">
+                                            <img src="testi2.jpg" class="rounded-circle" style="width:50px;">
+                                        </div>
+                                        <div class="flex-grow-1 px-3">
+                                            <h6 class="mt-4">Jenna John</h6>
+                                            <p>Subtitle goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="testimonials-body" style=width:20rem;>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit sed. orci urna. In et augue ornare, tempor massa in, luctus sapien. Proin a diam et dui fermentum dolor molestie vel id neque euismod massa a quam viverra et.</p>
+                                    <div class="info d-flex align-items-center mt-4">
+                                        <div class="flex-shrink-0">
+                                            <img src="testi3.jpg" class="rounded-circle" style="width:50px;">
+                                        </div>
+                                        <div class="flex-grow-1 px-3">
+                                            <h6 class="mt-4">William Due</h6>
+                                            <p>Subtitle goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section footer mx-auto">
+                    <div class="overlay"></div>
+                    <div class="container mt-5">
+                        <div class="row pt-5 text-white">
+                            <div class="col-3">
+                                <div class="flex-row">
+                                    <h4 style="font-size:32px;">Dress-<span style="font-weight:100;">Up</span></h4>
+                                    <p  class="pt-3">Nam libero tempore, cum soluta nobis est elige endi optio cumque nihil impedit quo minus id quod maxime placeat facere. Istee natuser iumedolo ladase.</p>
+                                    <i class="bi bi-facebook"></i>
+                                    <i class="bi bi-linkedin px-2"></i>
+                                    <i class="bi bi-twitter"></i>
+                                    <i class="bi bi-google px-2"></i>
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </div>
+                        <div class="col-3">
+                            <div class="flex-row">
+                                <h4 class="px-4">Quick Link</h4>
+                                <ul  class="pt-3">
+                                    <li class="pt-2">
+                                       <a href="#" class="text-white">Home</a>
+                                    </li>
+                                    <li class="pt-2">
+                                        <a href="#" class="text-white">About Us</a>
+                                    </li>
+                                    <li class="pt-2">
+                                        <a href="#" class="text-white">Services</a>
+                                    </li>
+                                    <li class="pt-2">
+                                        <a href="#" class="text-white">Blog Posts</a>
+                                     </li>
+                                    <li class="pt-2">
+                                        <a href="#" class="text-white">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="flex-row">
+                                <h4>Contact Info</h4>
+                                <a href="#" class="text-white"><p class="pt-3">10001, 5th Avenue, #32841 block, USA</p></a>
+                                <p>+1223 456 790</p>
+                                <a href="#" class="text-white"><p>info@example.com</p>
+                                <p>www.example.com</p></a>
+                            </div>
+                        </div>
+                        <div class="col-3 ">
+                            <div class="flex-row">
+                                <h4 class="px-4">Opening Hours</h4>
+                                <ul class="pt-3">
+                                    <li class="pt-1">Monday <span class="hours px-4 ml-3"> 9:00 - 18:00</span></li>
+                                    <l class="pt-1">Tuesday <span class="hours px-4 ml-3"> 10:00 -19:00</span></li>
+                                    <li class="pt-1">Wednesday <span class="hours px-3 ml-2"> 8:00 -17:00</span></li>
+                                    <li class="pt-1">Thursday <span class="hours px-4 ml-2"> 10:00 -19:00</span></li>
+                                    <li class="pt-1">Friday <span class="hours px-4 ml-4"> 10:00 - 19:00</span></li>
+                                    <li class="pt-1">Saturday <span class="hours px-4 ml-2">10:00 - 19:00 </span></li>
+                                    <li class="pt-1">Sunday <span class="hours px-4 ml-3"> Closed</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                            <p class="text border-top text-center mt-5 pt-3 text-white">© 2021 Dress-Up. All rights reserved. Design by W3Layouts</p>
+                        </div>
+                    </div>
+                </div>
      </div>
 </body>
 </html>

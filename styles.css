@@ -26,6 +26,36 @@ li{
     border-radius:30px;
 }
 
+.section-experience{
+    background-color: white;
+}
+
+.section.design{
+    background-image: url(bg1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section.footer{
+    position:relative;
+    background-image:url(footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+}
+
+.section.clients i{
+    color:red;
+    font-size:30px;
+    margin-bottom:200px;
+ }
+ 
+ .section.blog i{
+    color:red;
+ }
+
+
 .btn{
     border-radius: 50px;
     font-size:16px;
@@ -41,10 +71,6 @@ li{
     height:300px;
     box-shadow:0px px;
     
-}
-
-.section-experience{
-    background-color: white;
 }
 
 .number{
@@ -63,20 +89,6 @@ li{
     font-weight: bold;
 }
 
-.section.design{
-    background-image: url(bg1.jpg);
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.section.footer{
-    position:relative;
-    background-image:url(footer.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height:500px;
-}
 
 .overlay-design{
     position:absolute;
@@ -98,16 +110,6 @@ a, a:hover, button, button:hover {
     text-decoration: none;
     transition: .5s all;
     color:red;
-}
-
-.section.clients i{
-   color:red;
-   font-size:30px;
-   margin-bottom:200px;
-}
-
-.section.blog i{
-   color:red;
 }
 
 .form-control{
@@ -134,6 +136,7 @@ a, a:hover, button, button:hover {
 .section.new.styles {
     text-align:center;
 }
+
 .section.new.styles .col-3{
     margin:0;
     padding:0;
@@ -145,6 +148,7 @@ a, a:hover, button, button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin:10px;
+    border-radius:10px;
    border:1px solid red;
 
 }

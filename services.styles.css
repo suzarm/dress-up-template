@@ -1,0 +1,36 @@
+.form-control{
+    border-radius:30px;
+    font-size:16px;
+    margin-left:150px;
+}
+.btn{
+    border-radius: 50px;
+    font-size:16px;
+}
+
+.btn.btn-danger.input{
+    width:50px;
+    border-radius:0px 30px 30px 0px;
+}
+
+.bi.bi-moon{
+    margin-left:15px;
+    font-size:20px;
+}
+
+.navbar-brand{
+    font-size:32px;
+}
+
+.section.header.container{
+    position:fixed;
+    margin-left:360px;
+   
+}
+
+.section.main{
+    background-image: url(img.jpg);
+    height:290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

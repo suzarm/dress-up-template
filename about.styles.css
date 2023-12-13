@@ -23,10 +23,11 @@
     font-size:32px;
 }
 
-/* .section.header.container{
+.section.header.container{
     position:fixed;
     margin-left:360px;
-} */
+    z-index:2;
+} 
 
 .navbar-nav{
     padding-left:70px;

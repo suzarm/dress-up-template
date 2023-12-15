@@ -30,6 +30,17 @@ li{
     background-color: white;
 }
 
+.section-experience-imgs{
+   background-size: cover;
+   width:450px;
+   height:450px;
+}
+
+.section-experience-img{
+    background-size: cover;
+    width:450px;
+    height:450px;
+}
 .section.design{
     background-image: url(bg1.jpg);
     height: 400px;
@@ -106,7 +117,7 @@ li{
     background-color: black;
 }
 
-a, a:hover, button, button:hover {
+a:hover {
     text-decoration: none;
     transition: .5s all;
     color:red;

@@ -14,6 +14,7 @@
     border-radius:0px 30px 30px 0px;
 }
 
+
 .bi.bi-moon{
     margin-left:15px;
     font-size:20px;
@@ -61,12 +62,12 @@
     background-color: black;
 }
 
-.container-fluid.services .pictures{
-    width:100%;
+.container-fluid.services .picture{
     height:350px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:10px;
+   
 }
 
 .section.clients i{
@@ -80,11 +81,8 @@
     box-shadow: 0px 14px 37px 14px rgba(34, 60, 80, 0.2);
     border-radius:10px;
 }
-.container-fluid {
-    border:1px solid red;
-}
 
- .clients-card-body{
+.clients-card-body{
     background-color:white;
     width:350px;
     height:300px;
@@ -136,6 +134,10 @@
     padding:0px 40px;
 }
 
+.section.clients .container-fluid.services,.section.clients .container-fluid.services .row{
+    height: auto;
+}
+
 .section.footer{
     position:relative;
     background-image:url(footer.jpg);
@@ -152,3 +154,4 @@
 .section.footer{
     margin-top:150px;
 }
+

@@ -29,7 +29,12 @@ li{
 .section-experience{
     background-color: white;
 }
-
+.section-services .picture{
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:10px;
+}
 .section-experience-imgs{
    background-size: cover;
    width:450px;

@@ -1,0 +1,94 @@
+.section.header.container-fluid .form-control{
+    border-radius:30px;
+    font-size:16px;
+    margin-left:150px;
+}
+
+ .btn{
+    border-radius: 50px;
+    font-size:16px;
+}
+
+ .section.header.container-fluid .btn.btn-danger.input{
+    width:50px;
+    border-radius:0px 30px 30px 0px;
+}
+
+
+.bi.bi-moon{
+    margin-left:15px;
+    font-size:20px;
+}
+
+.navbar-brand{
+    font-size:32px;
+}
+
+.navbar-nav{
+    padding-left:70px;
+    
+}
+
+.navbar.navbar-expand-lg.navbar-light{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+.section.main{
+    background-image: url(img.jpg);
+    height:290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text{
+    padding-left:270px;
+    padding-top:100px;
+}
+
+.main-overlay{
+    position:absolute;
+    width:100%;
+    height:290px;
+    opacity:0.5;
+    background-color: black;
+}
+.section.contact i{
+    color:red;
+    font-size:34px;
+    padding-left:30px;
+}
+.section.map{
+    background-image: url(yerevan-map-0.jpg);
+    width:100%;
+    height:470px;
+}
+.section.footer{
+    position:relative;
+    background-image:url(footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+}
+
+.section.footer i{
+    color:white;
+    font-size:20px;
+}
+
+.section.footer p{
+    position:relative;
+    z-index: 2;
+}
+   
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    background-color: black;
+}
+
+.section.footer{
+    margin-top:80px;
+}

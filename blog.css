@@ -1,8 +1,28 @@
+html{
+    box-sizing:border-box
+}
+body{
+    font-size:16px;
+}
+
+*,::after,::before{
+    box-sizing: inherit;
+}
+
+.section.blog .form-control{
+    padding:25px;
+    margin-left: 10px;
+}
 .form-control{
     border-radius:30px;
     font-size:16px;
     margin-left:150px;
 }
+.section.blog li{
+    list-style:none;
+    line-height: 40px;;
+}
+
 
 .btn{
     border-radius: 50px;
@@ -18,6 +38,15 @@
     margin-left:15px;
     font-size:20px;
 }
+.section.blog i{
+    color:red;
+    font-size:15px;
+    margin-bottom:200px;
+ }
+ .picture {
+    border-radius:10px;
+    width:80px;
+ }
 
 .navbar.navbar-expand-lg.navbar-light{
     max-width:1140px;
@@ -39,9 +68,15 @@
     
 }
 
+.nav-link:hover, button:hover {
+    text-decoration: none;
+    transition: .5s all;
+    color: red !important;
+}
+
 .section.main{
     background-image: url(img.jpg);
-    height:290px;
+    height:310px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,16 +86,51 @@
     padding-top:100px;
 }
 
-.main-overlay{
+.overlay{
     position:absolute;
     width:100%;
-    height:290px;
+    height:100%;
     opacity:0.5;
     background-color: black;
 }
 
-.nav-link:hover, button:hover {
+.main-overlay{
+    position:absolute;
+    width:100%;
+    height:310px;
+    opacity:0.5;
+    background-color: black;
+}
+
+.section.page li{
+    border-radius:50px;
+}
+
+.section.page a:hover{
     text-decoration: none;
     transition: .5s all;
     color: red !important;
+}
+
+.section.footer{
+    position:relative;
+    background-image:url(footer.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+}
+
+.section.footer i{
+    color:white;
+    font-size:20px;
+}
+
+.section.footer p{
+    position:relative;
+    z-index: 2;
+}
+   
+
+.section.footer{
+    margin-top:150px;
 }
